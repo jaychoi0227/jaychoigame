@@ -90,8 +90,7 @@ var showClue = document.getElementById("clue");
       var j = (word.indexOf(geuss));
       if (j === -1) {
         lives -= 1;
-        comments();
-        animate();
+        newFunction();
       } else {
         comments();
       }
@@ -124,6 +123,4 @@ var showClue = document.getElementById("clue");
   }
 
   play();
-
 }
-
